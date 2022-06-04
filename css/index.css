@@ -4,6 +4,7 @@ body {
 }
 
 nav {
+  position: relative;
   display: flex;
   align-items: center;
   align-content: center;
@@ -12,6 +13,7 @@ nav {
   font-size: xx-large;
   background-color: #113a64;
   padding: 15px;
+  height: 5vw;
 }
 
 a {
