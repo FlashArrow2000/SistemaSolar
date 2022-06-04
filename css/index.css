@@ -1,0 +1,27 @@
+body {
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-family: Impact;
+  font-size: xx-large;
+  background-color: #113a64;
+  padding: 15px;
+}
+
+a {
+  color: #f1c40f;
+  margin: 2vw;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f17c0f;
+  margin: 2vw;
+  text-decoration: underline;
+}
