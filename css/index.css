@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   font-size: 18px;
+  background-color: rgb(0, 0, 0);
 }
 
 nav {
@@ -9,9 +10,8 @@ nav {
   align-content: center;
   justify-content: space-evenly;
   font-family: Impact;
-  font-size: xx-large;
-  background-color: #113a64;
-  padding: 15px;
+  font-size: x-large;
+  background-color: rgb(21, 21, 21);
 }
 
 a {
@@ -24,4 +24,5 @@ a:hover {
   color: #f17c0f;
   margin: 2vw;
   text-decoration: underline;
+  transition: 500ms;
 }
