@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 .main-content {
   height: max-content;
   font-family: "Montserrat";
 }
 
 .planet-img {
-  width: 400px;
+  width: 200px;
   height: auto;
   margin: 0px auto;
 }
@@ -27,7 +25,6 @@
 .title {
   margin: 0px 0px 25px;
   text-align: center;
-  font-weight: 800;
 }
 
 .info p {
@@ -45,11 +42,10 @@
 }
 
 .satellite-container {
-  background-color: black;
-  margin: 5vh 2vw 5vh;
+  margin: 1vh 2vw 1vh;
   width: 50vw;
-  height: 27vh;
-  border-radius: 15px;
+  height: 17.5vh;
+  border-radius: 5px;
   display: flex;
 }
 
@@ -80,4 +76,12 @@
 .satellite-text {
   text-align: justify;
   margin-right: 2vw;
+}
+
+footer {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  padding: 1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
